@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Table = () => {
+const Table = (props) => {
     return (
         <div>
-            Home Page Example
-
             --home page table
         </div>
     )
