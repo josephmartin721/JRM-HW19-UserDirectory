@@ -5,7 +5,7 @@ const Home = () => {
     const calldata = async () => {
         const res = await fetch('https://randomuser.me/')
         const data = await res.json();
-        console.log(data)
+        console.log(data.results)
     }
     
     useEffect(() => {
