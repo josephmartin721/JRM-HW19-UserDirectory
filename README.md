@@ -8,6 +8,6 @@
 
 [Git-Hub Pages](https://josephmartin721.github.io/JRM-HW19-UserDirectory/)
 
-[Example Image](src\ExampleImage.jpg)
+[Example Image](src/ExampleImage.jpg)
 
-[Logo](src\logo.svg)
+[Logo](src/logo.svg)
