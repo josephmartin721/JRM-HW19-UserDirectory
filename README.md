@@ -8,7 +8,6 @@
 
 [Git-Hub Pages](https://josephmartin721.github.io/JRM-HW19-UserDirectory/)
 
-[Example Image](src/ExampleImage.jpg)
+* Example Image:
 
-<img src="src/ExampleImage.jpg" alt="My cool logo"/>
-# My cool project and above is the logo of it
+<img src="src/ExampleImage.jpg" alt="Example-Image"/>
