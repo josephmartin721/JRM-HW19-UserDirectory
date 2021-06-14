@@ -1,11 +1,13 @@
 import React from "react";
 import Home from './pages/Home';
-import './App.css';
+import Jumbotron from "./components/Jumbotron";
+import './css/App.css';
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Jumbotron/>
       <Home/>
     </div>
   );
