@@ -10,4 +10,5 @@
 
 [Example Image](src/ExampleImage.jpg)
 
-[Logo](src/logo.svg)
+<img src="src/ExampleImage.jpg" alt="My cool logo"/>
+# My cool project and above is the logo of it
