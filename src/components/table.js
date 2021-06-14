@@ -2,9 +2,23 @@ import React from 'react';
 
 const Table = (props) => {
     return (
-        <div>
-            {JSON.stringify(props.employeeList)}
-        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Title</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                {
+                    props.employeeList.map(e => {
+                        return <Row {...e} />
+                    })
+                }
+            </tbody>
+        </table>
     )
 }
 

@@ -8,7 +8,7 @@ const Home = () => {
         const res = await fetch('https://randomuser.me/')
         const data = await res.json();
         setEmployeeList(data.results);
-        console.log(data.results)
+        console.log(data.results);
     }
     
     useEffect(() => {
@@ -16,6 +16,7 @@ const Home = () => {
     }, [])
 
     console.log(employeeList)
+    
     return (
         <Table employeeList={employeeList || []}/>
     )
