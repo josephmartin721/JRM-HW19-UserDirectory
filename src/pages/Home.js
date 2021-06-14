@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Table from '../components/Table';
 
 const Home = () => {
-    const [employeeList, setEmployeeList] = useState([])
+    const [employeeList, setEmployeeList] = useState()
     
     const calldata = async () => {
         const res = await fetch('https://randomuser.me/api/?results=10')
@@ -17,7 +17,7 @@ const Home = () => {
     console.log(employeeList)
     
     return (
-        <Table employeeList={employeeList}/>
+        <Table employeeList={employeeList || []}/>
     )
 }
 

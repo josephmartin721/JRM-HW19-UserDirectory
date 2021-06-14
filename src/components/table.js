@@ -1,7 +1,7 @@
 import React from 'react';
 import Row from './Row';
 
-function Table(props){
+const Table = (props) => {
     return (
         <table>
             <thead>
@@ -13,14 +13,14 @@ function Table(props){
                 </tr>
             </thead>
             <tbody>
-                {props.employeeList.map(e => {
-                        return <Row {...e} />
-                    }
-                )
+            {
+                props.employeeList.map(e => {
+                    return <Row {...e} /> 
+                    })  
             }
             </tbody>
         </table>
     )
 }
 
-export default Table;
+export default Table

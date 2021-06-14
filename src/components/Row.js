@@ -1,8 +1,14 @@
-import axios from "axios";
-const url = 'https://randomuser.me/api/?results=10';
+import React from 'react'
 
-export default {
-    ApiSearch: function () {
-        return axios.get(url)
-    }
+const Row = (props) => {
+    return (
+        <tr>
+            <td>{props.name.first}</td>
+            <td>{props.gender}</td>
+            <td>{props.name.title}</td>
+            <td>{props.dob.age}</td>
+        </tr>
+    )
 }
+
+export default Row
