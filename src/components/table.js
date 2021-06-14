@@ -1,5 +1,5 @@
-import React from 'react';
-import Row from './Row';
+import React, { Component } from 'react'
+import Row from './Row'
 
 const Table = (props) => {
     return (

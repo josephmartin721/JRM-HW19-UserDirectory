@@ -13,8 +13,6 @@ const Home = () => {
     useEffect(() => {
         calldata();
     }, [])
-
-    console.log(employeeList)
     
     return (
         <Table employeeList={employeeList || []}/>
